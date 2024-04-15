@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "./assets/logo-dev-account-tech-solutions-logo.jpg";
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +12,21 @@ function Navigation() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link className="navbar-brand" to="/">
-          DevAccount Tech Solutions
+        <Link className="navbar-brand d-flex align-items-center" to="/">
+          <div style={{ marginLeft: "22px" }}>
+            <img
+              src={logo}
+              alt="DevAccount Tech Solutions Logo"
+              className="logo mr-2 img-fluid"
+              style={{ maxWidth: "100px" }}
+            />
+            <div>
+              <div>DevAccount Tech Solutions</div>
+              <div className="text-muted">
+                Where Technology Meets Finance Expertise
+              </div>
+            </div>
+          </div>
         </Link>
         <button className="navbar-toggler" type="button" onClick={toggleMenu}>
           <span className="navbar-toggler-icon"></span>
