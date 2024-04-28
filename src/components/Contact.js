@@ -18,6 +18,10 @@ export const Contact = () => {
         (result) => {
           // Code pour gérer la soumission réussie du formulaire
           console.log("SUCCESS!", result.text);
+          // Réinitialiser le formulaire après l'envoi réussi
+          if (form.current) {
+            form.current.reset();
+          }
         },
         (error) => {
           // Code pour gérer l'échec de la soumission du formulaire
