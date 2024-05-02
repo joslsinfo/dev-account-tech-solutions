@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "./assets/logo-dev-account-tech-solutions-logo.jpg";
+import logo from "../../components/assets/logo-dev-account-tech-solutions-logo.jpg";
 
 function Navigation() {
   const [isOpen, setIsOpen] = useState(false);

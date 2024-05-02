@@ -9,10 +9,10 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_te691sa",
-        "template_68pt75r",
+        process.env.REACT_APP_EMAILJS_SERVICEID,
+        process.env.REACT_APP_EMAILJS_TEMPLATEID,
         form.current,
-        "ljx51Sf9QIG1iDX2l"
+        process.env.REACT_APP_EMAILJS_USERID
       )
       .then(
         (result) => {
@@ -41,6 +41,7 @@ export const Contact = () => {
           id="name"
           name="your_name"
           className="form-control"
+          required
         />
       </div>
       <div className="mb-3">
@@ -52,6 +53,7 @@ export const Contact = () => {
           id="email"
           name="your_email"
           className="form-control"
+          required
         />
       </div>
       <div className="mb-3">
@@ -62,6 +64,7 @@ export const Contact = () => {
           id="message"
           name="message"
           className="form-control"
+          required
         ></textarea>
       </div>
       <button type="submit" className="btn btn-secondary">
