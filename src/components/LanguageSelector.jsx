@@ -6,7 +6,7 @@ function LanguageSelector({ language, setLanguage }) {
   };
 
   return (
-    <div className="language-selector d-flex justify-content-end">
+    <div className="language-selector d-flex justify-content-end mb-1 mt-1">
       <button className="btn btn-secondary" onClick={toggleLanguage}>
         {language === "fr" ? "English" : "Français"}
       </button>

@@ -67,7 +67,7 @@ export const Contact = () => {
           required
         ></textarea>
       </div>
-      <button type="submit" className="btn btn-secondary">
+      <button type="submit" className="btn btn-success">
         Send
       </button>
     </form>
