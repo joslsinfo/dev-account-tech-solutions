@@ -11,7 +11,7 @@ function Navigation() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-success">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <div style={{ marginLeft: "22px" }}>
             <img
@@ -22,9 +22,9 @@ function Navigation() {
             />
             <div>
               <div>DevAccount Tech Solutions</div>
-              <div className="text-muted">
+              {/* <div className="text-muted">
                 Là où la technologie rencontre l'expertise financière.
-              </div>
+              </div> */}
             </div>
           </div>
         </Link>

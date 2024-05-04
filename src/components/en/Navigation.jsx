@@ -22,9 +22,9 @@ function Navigation() {
             />
             <div>
               <div>DevAccount Tech Solutions</div>
-              <div className="text-muted">
+              {/* <div className="text-muted">
                 Where Technology Meets Finance Expertise
-              </div>
+              </div> */}
             </div>
           </div>
         </Link>
