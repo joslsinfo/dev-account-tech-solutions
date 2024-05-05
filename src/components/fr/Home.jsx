@@ -1,4 +1,7 @@
 import React from "react";
+import "../../components/fr/home.css";
+import logoWeb from "../../components/assets/world-wide-web.png";
+import logoFinance from "../../components/assets/bars.png";
 
 function Home() {
   return (
@@ -12,7 +15,10 @@ function Home() {
       </p>
 
       <section>
-        <h2>Développement Web</h2>
+        <div className="service">
+          <img src={logoWeb} alt="" className="logo-web" />
+          <h2>Développement Web</h2>
+        </div>
         <p>
           Nous offrons une gamme complète de services de développement web pour
           aider votre entreprise à prospérer en ligne. Que vous ayez besoin d'un
@@ -39,7 +45,10 @@ function Home() {
       </section>
 
       <section>
-        <h2>Comptabilité</h2>
+        <div className="service">
+          <img src={logoFinance} alt="logo finance" className="logo-finance" />
+          <h2>Comptabilité</h2>
+        </div>
         <p>
           En plus de nos services de développement web, nous proposons également
           des services comptables complets pour soutenir la croissance et la

@@ -1,4 +1,6 @@
 import React from "react";
+import logoWeb from "../../components/assets/world-wide-web.png";
+import logoFinance from "../../components/assets/bars.png";
 
 function Home() {
   return (
@@ -11,7 +13,10 @@ function Home() {
       </p>
 
       <section>
-        <h2>Web Development</h2>
+        <div className="service">
+          <img src={logoWeb} alt="" className="logo-web" />
+          <h2>Web Development</h2>
+        </div>
         <p>
           We offer a comprehensive range of web development services to help
           your business thrive online. Whether you need a custom website, a
@@ -35,7 +40,10 @@ function Home() {
       </section>
 
       <section>
-        <h2>Accounting</h2>
+        <div className="service">
+          <img src={logoFinance} alt="logo finance" className="logo-finance" />
+          <h2>Accounting</h2>
+        </div>
         <p>
           In addition to our web development services, we also offer
           comprehensive accounting services to support the growth and success of
