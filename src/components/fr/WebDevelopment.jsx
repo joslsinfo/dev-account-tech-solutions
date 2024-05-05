@@ -1,4 +1,6 @@
 import React from "react";
+import "../../components/fr/webDevelopment.css";
+import logoWeb from "../assets/world-wide-web.png";
 
 function WebDevelopment() {
   return (
@@ -14,7 +16,10 @@ function WebDevelopment() {
         projets numériques avec succès.
       </p>
       <hr />
-      <h2>Nos Services </h2>
+      <div className="service">
+        <img src={logoWeb} alt="" className="logo-web" />
+        <h2>Nos Services </h2>
+      </div>
       <p>
         Chez DevAccount Tech Solutions, nous offrons une gamme complète de
         services de développement web, adaptés à vos besoins spécifiques. Que

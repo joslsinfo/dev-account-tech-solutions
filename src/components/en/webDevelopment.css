@@ -1,0 +1,11 @@
+.service {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-web{
+    width:50px;
+    height: auto;
+    margin-right: 10px;
+}

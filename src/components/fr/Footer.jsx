@@ -4,7 +4,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer mt-auto py-3">
+    <footer className="container footer mt-auto py-3">
+      <hr />
       <div className="container text-center">
         <span className="text-muted">
           {/* © 2022 DevAccount Tech Solutions. Tous droits réservés. */}

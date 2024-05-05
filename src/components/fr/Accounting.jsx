@@ -1,9 +1,18 @@
 import React from "react";
+import "../../components/fr/accounting.css";
+import logoFinance from "../assets/bars.png";
+import logoBookeeping from "../assets/accountant.png";
+import logoTax from "../assets/tax.png";
+import logoConsultation from "../assets/consultation.png";
+import logoAnalyse from "../assets/analysing.png";
 
 function Accounting() {
   return (
     <div className="container">
-      <h1>Services de Comptabilité</h1>
+      <div className="service">
+        <img src={logoFinance} alt="logo finance" className="logo-finance" />
+        <h1>Services de Comptabilité</h1>
+      </div>
       <p>
         DevAccount Tech Solutions propose une gamme complète de services
         comptables pour aider votre entreprise à maintenir une santé financière
@@ -11,7 +20,10 @@ function Accounting() {
       </p>
 
       <section>
-        <h2>Tenue de Livres et Gestion des Comptes</h2>
+        <div className="service">
+          <img src={logoBookeeping} alt="" className="logo-bookeeping" />
+          <h2>Tenue de Livres et Gestion des Comptes</h2>
+        </div>
         <p>
           Nous offrons des services de tenue de livres professionnels pour vous
           aider à suivre et à gérer efficacement vos transactions financières.
@@ -22,7 +34,10 @@ function Accounting() {
       </section>
 
       <section>
-        <h2>Déclarations de Revenus et de Taxes</h2>
+        <div className="service">
+          <img src={logoTax} alt="" className="logo-tax" />
+          <h2>Déclarations de Revenus et de Taxes</h2>
+        </div>
         <p>
           Nous pouvons vous aider à préparer et à soumettre vos déclarations de
           revenus et de taxes en temps opportun et avec précision. Notre équipe
@@ -32,7 +47,10 @@ function Accounting() {
       </section>
 
       <section>
-        <h2>Consultations Financières et Planification Budgétaire</h2>
+        <div className="service">
+          <img src={logoConsultation} alt="" className="logo-consultation" />
+          <h2>Consultations Financières et Planification Budgétaire</h2>
+        </div>
         <p>
           Nous offrons des consultations financières personnalisées pour vous
           aider à planifier votre avenir financier et à atteindre vos objectifs
@@ -43,7 +61,10 @@ function Accounting() {
       </section>
 
       <section>
+        <div className="service">
+          <img src={logoAnalyse} alt="" className="logo-analyse" />
         <h2>Analyses Financières et Rapports Personnalisés</h2>
+        </div>
         <p>
           Nous pouvons vous fournir des analyses financières approfondies et des
           rapports personnalisés pour vous aider à évaluer la performance

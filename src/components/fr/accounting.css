@@ -1,0 +1,11 @@
+.service {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-finance, .logo-bookeeping, .logo-tax, .logo-consultation, .logo-analyse{
+    width:50px;
+    height: auto;
+    margin-right: 10px;
+}
