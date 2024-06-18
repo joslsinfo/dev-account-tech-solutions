@@ -11,7 +11,7 @@ function Navigation() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-success">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-success nav-color">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <div style={{ marginLeft: "22px" }}>
             <img

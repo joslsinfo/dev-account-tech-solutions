@@ -1,6 +1,8 @@
 import React from "react";
 import "../../components/fr/webDevelopment.css";
-import logoWeb from "../assets/world-wide-web.png";
+// import logoWeb from "../assets/world-wide-web.png";
+// import devweb from "../assets/devweb.jpg";
+import programming from "../assets/programming.jpg";
 
 function WebDevelopment() {
   return (
@@ -17,7 +19,9 @@ function WebDevelopment() {
       </p>
       <hr />
       <div className="service">
-        <img src={logoWeb} alt="" className="logo-web" />
+        {/* <img src={logoWeb} alt="" className="logo-web" /> */}
+        {/* <img src={devweb} alt="" className="dev-web" /> */}
+        <img src={programming} alt="" className="programming" />
         <h2>Nos Services </h2>
       </div>
       <p>
