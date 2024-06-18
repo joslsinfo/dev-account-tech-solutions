@@ -1,13 +1,15 @@
 import React from "react";
 import "../../components/fr/webDevelopment.css";
-// import logoWeb from "../assets/world-wide-web.png";
-// import devweb from "../assets/devweb.jpg";
 import programming from "../assets/programming.jpg";
+import development from "../assets/development.jpg";
 
 function WebDevelopment() {
   return (
     <div className="container">
-      <h1>Web Development</h1>
+      <div className="web-programming">
+        <img src={programming} alt="" className="programming" />
+        <h1>Développement web</h1>
+      </div>
       <h2>Bienvenue chez DevAccount Tech Solutions !</h2>
       <p>
         Nous sommes une équipe passionnée de professionnels du développement
@@ -19,9 +21,7 @@ function WebDevelopment() {
       </p>
       <hr />
       <div className="service">
-        {/* <img src={logoWeb} alt="" className="logo-web" /> */}
-        {/* <img src={devweb} alt="" className="dev-web" /> */}
-        <img src={programming} alt="" className="programming" />
+        <img src={development} alt="" className="development" />
         <h2>Nos Services </h2>
       </div>
       <p>

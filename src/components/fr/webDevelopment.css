@@ -9,8 +9,18 @@
     height: auto;
     margin-right: 10px;
 }
+.web-programming{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0px;
+}
 .programming{
-    width:100px;
+    width:70px;
+    height: auto;
+    margin-right: 10px;
+}
+.development{
+    width:70px;
     height: auto;
     margin-right: 10px;
 }

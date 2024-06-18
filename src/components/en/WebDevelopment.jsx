@@ -1,12 +1,15 @@
 import React from "react";
 import "../../components/en/webDevelopment.css";
-// import logoWeb from "../assets/world-wide-web.png";
 import programming from "../assets/programming.jpg";
+import development from "../assets/development.jpg";
 
 function WebDevelopment() {
   return (
     <div className="container">
-      <h1>Web Development</h1>
+      <div className="web-programming">
+        <img src={programming} alt="" className="programming" />
+        <h1>Web Development</h1>
+      </div>
       <h2>Welcome to DevAccount Tech Solutions!</h2>
       <p>
         We are a team of passionate web development professionals dedicated to
@@ -16,8 +19,7 @@ function WebDevelopment() {
       </p>
       <hr />
       <div className="service">
-        {/* <img src={logoWeb} alt="" className="logo-web" /> */}
-        <img src={programming} alt="" className="programming" />
+        <img src={development} alt="" className="development" />
         <h2>Our Services</h2>
       </div>
       <p>
