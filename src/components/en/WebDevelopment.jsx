@@ -1,7 +1,7 @@
 import React from "react";
 import "../../components/en/webDevelopment.css";
-import programming from "../assets/programming.jpg";
-import development from "../assets/development.jpg";
+import programming from "../assets/programmingpng.png";
+import development from "../assets/developmentpng.png";
 
 function WebDevelopment() {
   return (

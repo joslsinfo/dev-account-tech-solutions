@@ -15,3 +15,16 @@ code {
 .nav-color{
   background-color: #48B3C7;
 }
+
+.logo{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.logo-text{
+  font-size: 12px;
+}
+
+.text-center{
+  color: green;
+}

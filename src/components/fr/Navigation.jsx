@@ -18,10 +18,10 @@ function Navigation() {
               src={logo}
               alt="DevAccount Tech Solutions Logo"
               className="logo mr-2 img-fluid"
-              style={{ maxWidth: "100px" }}
+              // style={{ maxWidth: "100px" }}
             />
             <div>
-              <div>DevAccount Tech Solutions</div>
+              <div className="logo-text">DevAccount Tech Solutions</div>
               {/* <div className="text-muted">
                 Là où la technologie rencontre l'expertise financière.
               </div> */}

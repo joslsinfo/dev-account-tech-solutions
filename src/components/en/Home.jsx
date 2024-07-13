@@ -1,11 +1,12 @@
 import React from "react";
 import logoWeb from "../../components/assets/world-wide-web.png";
 import logoFinance from "../../components/assets/bars.png";
+import "../../components/en/home.css";
 
 function Home() {
   return (
     <div className="container">
-      <h1>Welcome to DevAccount Tech Solutions</h1>
+      <h1 className="title">Welcome to DevAccount Tech Solutions</h1>
       <p>
         We are your trusted partner for web development and accounting needs.
         Our company is committed to providing innovative and reliable solutions
