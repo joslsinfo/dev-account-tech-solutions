@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-account-tech-solutions/static/css/main.73593690.css",
-    "main.js": "/dev-account-tech-solutions/static/js/main.d3f5f4a7.js",
+    "main.css": "/dev-account-tech-solutions/static/css/main.d82b3128.css",
+    "main.js": "/dev-account-tech-solutions/static/js/main.85d0ac88.js",
     "static/js/453.fb5044bb.chunk.js": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js",
     "static/media/programmingpng.png": "/dev-account-tech-solutions/static/media/programmingpng.fbb9507d037e4c8a27c5.png",
     "static/media/developmentpng.png": "/dev-account-tech-solutions/static/media/developmentpng.122f376cae3cbd6f3f81.png",
@@ -15,12 +15,12 @@
     "static/media/analysing.png": "/dev-account-tech-solutions/static/media/analysing.55c7fd7552ef677b443b.png",
     "static/media/bars.png": "/dev-account-tech-solutions/static/media/bars.c19d00956fe82a989afd.png",
     "index.html": "/dev-account-tech-solutions/index.html",
-    "main.73593690.css.map": "/dev-account-tech-solutions/static/css/main.73593690.css.map",
-    "main.d3f5f4a7.js.map": "/dev-account-tech-solutions/static/js/main.d3f5f4a7.js.map",
+    "main.d82b3128.css.map": "/dev-account-tech-solutions/static/css/main.d82b3128.css.map",
+    "main.85d0ac88.js.map": "/dev-account-tech-solutions/static/js/main.85d0ac88.js.map",
     "453.fb5044bb.chunk.js.map": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73593690.css",
-    "static/js/main.d3f5f4a7.js"
+    "static/css/main.d82b3128.css",
+    "static/js/main.85d0ac88.js"
   ]
 }
