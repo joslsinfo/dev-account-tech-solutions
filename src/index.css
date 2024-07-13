@@ -28,3 +28,7 @@ code {
 .text-center{
   color: green;
 }
+
+h1{
+  color: green !important;
+}

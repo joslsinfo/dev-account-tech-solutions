@@ -32,6 +32,7 @@ export const Contact = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail} className="container mt-5">
+      <h1>Contact</h1>
       <div className="mb-3">
         <label htmlFor="name" className="form-label">
           Name
