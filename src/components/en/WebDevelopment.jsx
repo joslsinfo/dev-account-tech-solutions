@@ -2,6 +2,7 @@ import React from "react";
 import "../../components/en/webDevelopment.css";
 import programming from "../assets/programmingpng.png";
 import development from "../assets/developmentpng.png";
+import developperatwork from "../assets/developperatwork.jpg";
 
 function WebDevelopment() {
   return (
@@ -11,12 +12,22 @@ function WebDevelopment() {
         <h1>Web Development</h1>
       </div>
       <h2>Welcome to DevAccount Tech Solutions!</h2>
-      <p>
+      {/* <p>
         We are a team of passionate web development professionals dedicated to
         providing innovative technological solutions to meet your business
         needs. With deep expertise in web development and a client-focused
         approach, we are here to help you achieve digital success.
-      </p>
+      </p> */}
+      <div className="dev">
+        <img src={developperatwork} alt="" className="img-dev" />
+        <p>
+          We are a team of passionate web development professionals dedicated to
+          providing innovative technological solutions to meet your business
+          needs. With deep expertise in web development and a client-focused
+          approach, we are here to help you achieve digital success.
+        </p>
+      </div>
+
       <hr />
       <div className="service">
         <img src={development} alt="" className="development" />

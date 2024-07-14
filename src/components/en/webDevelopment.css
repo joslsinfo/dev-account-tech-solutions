@@ -25,3 +25,15 @@
     height: auto;
     margin-right: 10px;
 }
+
+.img-dev{
+    width: 50%;
+       
+}
+.dev{
+    display: flex;
+    
+}
+.dev p{
+    margin-left: 1rem;
+}
