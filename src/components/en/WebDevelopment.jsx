@@ -3,6 +3,8 @@ import "../../components/en/webDevelopment.css";
 import programming from "../assets/programmingpng.png";
 import development from "../assets/developmentpng.png";
 import developperatwork from "../assets/developperatwork.jpg";
+import webDev3 from "../assets/web-dev3.jpg";
+import webDev4 from "../assets/web-dev4.jpg";
 
 function WebDevelopment() {
   return (
@@ -11,7 +13,7 @@ function WebDevelopment() {
         <img src={programming} alt="" className="programming" />
         <h1>Web Development</h1>
       </div>
-      <h2>Welcome to DevAccount Tech Solutions!</h2>
+      <h2 className="sub-title">Welcome to DevAccount Tech Solutions!</h2>
       {/* <p>
         We are a team of passionate web development professionals dedicated to
         providing innovative technological solutions to meet your business
@@ -33,23 +35,29 @@ function WebDevelopment() {
         <img src={development} alt="" className="development" />
         <h2>Our Services</h2>
       </div>
-      <p>
-        At DevAccount Tech Solutions, we offer a comprehensive range of web
-        development services tailored to your specific needs. Whether you are a
-        startup looking for an online presence, an SME eager to modernize your
-        existing website, or a large enterprise seeking to develop a complex web
-        application, we have the skills and experience to support you at every
-        stage of your project.
-      </p>
-      <ul>
-        Our services include:
-        <li>Custom website design and development.</li>
-        <li>Custom web application development.</li>
-        <li>System and database integration.</li>
-        <li>Website performance and security optimization.</li>
-        <li>Migrating and upgrading existing platforms.</li>
-        <li>Developing responsive and mobile-friendly websites.</li>
-      </ul>
+      <div className="dev">
+        <p>
+          At DevAccount Tech Solutions, we offer a comprehensive range of web
+          development services tailored to your specific needs. Whether you are
+          a startup looking for an online presence, an SME eager to modernize
+          your existing website, or a large enterprise seeking to develop a
+          complex web application, we have the skills and experience to support
+          you at every stage of your project.
+        </p>
+        <img src={webDev3} alt="" className="img-webDev" />
+      </div>
+      <div className="dev">
+        <ul>
+          Our services include:
+          <li>Custom website design and development.</li>
+          <li>Custom web application development.</li>
+          <li>System and database integration.</li>
+          <li>Website performance and security optimization.</li>
+          <li>Migrating and upgrading existing platforms.</li>
+          <li>Developing responsive and mobile-friendly websites.</li>
+        </ul>
+        <img src={webDev4} alt="" className="img-webDev" />
+      </div>
       <hr />
       <h2>Our Approach</h2>
       <p>

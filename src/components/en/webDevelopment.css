@@ -1,6 +1,7 @@
 .service {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 
 }
 
@@ -14,6 +15,10 @@
     display: flex;
     align-items: center;
     margin: 2rem 0px;
+}
+.sub-title{
+    text-align: center;
+    font-weight: bold;
 }
 .programming{
     width:70px;
@@ -32,8 +37,13 @@
 }
 .dev{
     display: flex;
+    margin-bottom: 1rem;
     
 }
 .dev p{
     margin-left: 1rem;
+}
+.img-webDev{
+     width: 50%;
+     margin-left: 6rem;
 }
