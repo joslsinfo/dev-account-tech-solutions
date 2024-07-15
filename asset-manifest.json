@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/dev-account-tech-solutions/static/css/main.b7b8aa31.css",
-    "main.js": "/dev-account-tech-solutions/static/js/main.3bd5c547.js",
+    "main.css": "/dev-account-tech-solutions/static/css/main.1665cb60.css",
+    "main.js": "/dev-account-tech-solutions/static/js/main.de92ab62.js",
     "static/js/453.fb5044bb.chunk.js": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js",
-    "static/media/programmingpng.png": "/dev-account-tech-solutions/static/media/programmingpng.fbb9507d037e4c8a27c5.png",
-    "static/media/developmentpng.png": "/dev-account-tech-solutions/static/media/developmentpng.122f376cae3cbd6f3f81.png",
     "static/media/programming.jpg": "/dev-account-tech-solutions/static/media/programming.1586ea279939b52cbd8e.jpg",
     "static/media/development.jpg": "/dev-account-tech-solutions/static/media/development.26b193907cb28777825b.jpg",
     "static/media/developperatwork.jpg": "/dev-account-tech-solutions/static/media/developperatwork.cc31fb8baf0424e285f9.jpg",
+    "static/media/web-dev4.jpg": "/dev-account-tech-solutions/static/media/web-dev4.92a1f4554ac32b357df6.jpg",
+    "static/media/developmentpng.png": "/dev-account-tech-solutions/static/media/developmentpng.0f6e46ecd15ab31815d0.png",
+    "static/media/programmingpng.png": "/dev-account-tech-solutions/static/media/programmingpng.4f12d7fb2a225eded479.png",
+    "static/media/web-dev3.jpg": "/dev-account-tech-solutions/static/media/web-dev3.41dae6c7ddee0349bfea.jpg",
     "static/media/tax.png": "/dev-account-tech-solutions/static/media/tax.e0ff4378c409aecff0a2.png",
     "static/media/accountant.png": "/dev-account-tech-solutions/static/media/accountant.9daffd70833e444e8458.png",
     "static/media/world-wide-web.png": "/dev-account-tech-solutions/static/media/world-wide-web.fc143eee28f98ec4ff11.png",
@@ -16,12 +18,12 @@
     "static/media/analysing.png": "/dev-account-tech-solutions/static/media/analysing.55c7fd7552ef677b443b.png",
     "static/media/bars.png": "/dev-account-tech-solutions/static/media/bars.c19d00956fe82a989afd.png",
     "index.html": "/dev-account-tech-solutions/index.html",
-    "main.b7b8aa31.css.map": "/dev-account-tech-solutions/static/css/main.b7b8aa31.css.map",
-    "main.3bd5c547.js.map": "/dev-account-tech-solutions/static/js/main.3bd5c547.js.map",
+    "main.1665cb60.css.map": "/dev-account-tech-solutions/static/css/main.1665cb60.css.map",
+    "main.de92ab62.js.map": "/dev-account-tech-solutions/static/js/main.de92ab62.js.map",
     "453.fb5044bb.chunk.js.map": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7b8aa31.css",
-    "static/js/main.3bd5c547.js"
+    "static/css/main.1665cb60.css",
+    "static/js/main.de92ab62.js"
   ]
 }
