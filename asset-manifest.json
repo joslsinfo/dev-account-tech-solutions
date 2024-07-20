@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/dev-account-tech-solutions/static/css/main.e4c120a7.css",
-    "main.js": "/dev-account-tech-solutions/static/js/main.675eb525.js",
+    "main.js": "/dev-account-tech-solutions/static/js/main.97066274.js",
     "static/js/453.fb5044bb.chunk.js": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js",
     "static/media/programming.jpg": "/dev-account-tech-solutions/static/media/programming.1586ea279939b52cbd8e.jpg",
     "static/media/development.jpg": "/dev-account-tech-solutions/static/media/development.26b193907cb28777825b.jpg",
-    "static/media/developperatwork.jpg": "/dev-account-tech-solutions/static/media/developperatwork.cc31fb8baf0424e285f9.jpg",
-    "static/media/web-dev4.jpg": "/dev-account-tech-solutions/static/media/web-dev4.92a1f4554ac32b357df6.jpg",
+    "static/media/web-dev1.jpg": "/dev-account-tech-solutions/static/media/web-dev1.8c8dcda61692df2e5af3.jpg",
+    "static/media/developperatwork.jpg": "/dev-account-tech-solutions/static/media/developperatwork.4816a957ecfcac76d2e2.jpg",
+    "static/media/web-dev4.jpg": "/dev-account-tech-solutions/static/media/web-dev4.2de4e7dd8b1bf8c52ed8.jpg",
+    "static/media/web-dev3.jpg": "/dev-account-tech-solutions/static/media/web-dev3.52da33ec45e305b08fbe.jpg",
     "static/media/developmentpng.png": "/dev-account-tech-solutions/static/media/developmentpng.0f6e46ecd15ab31815d0.png",
     "static/media/programmingpng.png": "/dev-account-tech-solutions/static/media/programmingpng.4f12d7fb2a225eded479.png",
-    "static/media/web-dev3.jpg": "/dev-account-tech-solutions/static/media/web-dev3.41dae6c7ddee0349bfea.jpg",
     "static/media/tax.png": "/dev-account-tech-solutions/static/media/tax.e0ff4378c409aecff0a2.png",
     "static/media/accountant.png": "/dev-account-tech-solutions/static/media/accountant.9daffd70833e444e8458.png",
     "static/media/world-wide-web.png": "/dev-account-tech-solutions/static/media/world-wide-web.fc143eee28f98ec4ff11.png",
@@ -19,11 +20,11 @@
     "static/media/bars.png": "/dev-account-tech-solutions/static/media/bars.c19d00956fe82a989afd.png",
     "index.html": "/dev-account-tech-solutions/index.html",
     "main.e4c120a7.css.map": "/dev-account-tech-solutions/static/css/main.e4c120a7.css.map",
-    "main.675eb525.js.map": "/dev-account-tech-solutions/static/js/main.675eb525.js.map",
+    "main.97066274.js.map": "/dev-account-tech-solutions/static/js/main.97066274.js.map",
     "453.fb5044bb.chunk.js.map": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4c120a7.css",
-    "static/js/main.675eb525.js"
+    "static/js/main.97066274.js"
   ]
 }
