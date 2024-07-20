@@ -7,7 +7,7 @@ function WebDevelopment() {
   return (
     <div className="container">
       <div className="web-programming">
-        <img src={programming} alt="" className="programming" />
+        <img src={programming} alt="" className="img-programming" />
         <h1>Développement web</h1>
       </div>
       <h2>Bienvenue chez DevAccount Tech Solutions !</h2>
@@ -21,7 +21,7 @@ function WebDevelopment() {
       </p>
       <hr />
       <div className="service">
-        <img src={development} alt="" className="development" />
+        <img src={development} alt="" className="img-development" />
         <h2>Nos Services </h2>
       </div>
       <p>

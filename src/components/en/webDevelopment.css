@@ -20,24 +20,23 @@
     text-align: center;
     font-weight: bold;
 }
-.programming{
+.img-programming{
     width:70px;
     height: auto;
     margin-right: 10px;
+    object-fit: cover;
 }
-.development{
+.img-development{
     width:70px;
     height: auto;
     margin-right: 10px;
 }
 
-.img-dev{
-    width: 50%;
-       
-}
+
 .dev{
     display: flex;
-    margin-bottom: 1rem;
+    padding: 1rem;
+    
     
 }
 .dev p{
@@ -46,4 +45,5 @@
 .img-webDev{
      width: 50%;
      margin-left: 6rem;
+     object-fit: cover;
 }

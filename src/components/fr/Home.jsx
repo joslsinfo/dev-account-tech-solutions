@@ -47,7 +47,11 @@ function Home() {
 
       <section>
         <div className="service">
-          <img src={logoFinance} alt="logo finance" className="logo-finance" />
+          <img
+            src={logoFinance}
+            alt="logo finance"
+            className="img-logo-finance"
+          />
           <h2>Comptabilité</h2>
         </div>
         <p>

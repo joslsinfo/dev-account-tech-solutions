@@ -6,33 +6,28 @@ import developperatwork from "../assets/developperatwork.jpg";
 import webDev3 from "../assets/web-dev3.jpg";
 import webDev4 from "../assets/web-dev4.jpg";
 
-function WebDevelopment() {
+const WebDevelopment = () => {
   return (
     <div className="container">
       <div className="web-programming">
-        <img src={programming} alt="" className="programming" />
+        <img src={programming} alt="" className="img-programming" />
         <h1>Web Development</h1>
       </div>
       <h2 className="sub-title">Welcome to DevAccount Tech Solutions!</h2>
-      {/* <p>
-        We are a team of passionate web development professionals dedicated to
-        providing innovative technological solutions to meet your business
-        needs. With deep expertise in web development and a client-focused
-        approach, we are here to help you achieve digital success.
-      </p> */}
+
       <div className="dev">
-        <img src={developperatwork} alt="" className="img-dev" />
         <p>
           We are a team of passionate web development professionals dedicated to
           providing innovative technological solutions to meet your business
           needs. With deep expertise in web development and a client-focused
           approach, we are here to help you achieve digital success.
         </p>
+        <img src={developperatwork} alt="" className="img-webDev" />
       </div>
 
       <hr />
       <div className="service">
-        <img src={development} alt="" className="development" />
+        <img src={development} alt="" className="img-development" />
         <h2>Our Services</h2>
       </div>
       <div className="dev">
@@ -48,7 +43,7 @@ function WebDevelopment() {
       </div>
       <div className="dev">
         <ul>
-          Our services include:
+          <h3> Our services include: </h3>
           <li>Custom website design and development.</li>
           <li>Custom web application development.</li>
           <li>System and database integration.</li>
@@ -98,6 +93,6 @@ function WebDevelopment() {
       </p>
     </div>
   );
-}
+};
 
 export default WebDevelopment;
