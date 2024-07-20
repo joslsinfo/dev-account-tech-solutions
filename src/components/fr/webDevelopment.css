@@ -29,10 +29,11 @@
 @media screen and (max-width:768px) {
     .dev{
       flex-wrap: wrap;
-
     }
+
     .img-webDev{
       width: 100%;
+      margin:0;
     }
     
   }
