@@ -1,6 +1,7 @@
 import React from "react";
 import logoWeb from "../../components/assets/world-wide-web.png";
 import logoFinance from "../../components/assets/bars.png";
+import webDev1 from "../../components/assets/web-dev1.jpg";
 import "../../components/en/home.css";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <section>
         <div className="service">
           <img src={logoWeb} alt="" className="logo-web" />
+
           <h2>Web Development</h2>
         </div>
         <p>
