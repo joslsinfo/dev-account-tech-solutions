@@ -5,6 +5,7 @@ import development from "../assets/developmentpng.png";
 import developperatwork from "../assets/developperatwork.jpg";
 import webDev3 from "../assets/web-dev3.jpg";
 import webDev4 from "../assets/web-dev4.jpg";
+import imgCoworkersWithCustomer from "../assets/img-coworkerswithcustomer.jpg";
 
 const WebDevelopment = () => {
   return (
@@ -55,13 +56,17 @@ const WebDevelopment = () => {
       </div>
       <hr />
       <h2>Our Approach</h2>
-      <p>
-        At DevAccount Tech Solutions, we believe in a collaborative and
-        transparent approach to every project we undertake. We start by
-        carefully listening to your needs and goals, then work closely with you
-        at every stage of the development process to ensure that we meet your
-        expectations and deliver outstanding results.
-      </p>
+
+      <div className="dev">
+        <p>
+          At DevAccount Tech Solutions, we believe in a collaborative and
+          transparent approach to every project we undertake. We start by
+          carefully listening to your needs and goals, then work closely with
+          you at every stage of the development process to ensure that we meet
+          your expectations and deliver outstanding results.
+        </p>
+        <img src={imgCoworkersWithCustomer} alt="" className="img-webDev" />
+      </div>
       <hr />
       <ul>
         <h3>Why Choose Us</h3>
