@@ -42,7 +42,7 @@
 .dev ul {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    
   }
   
   .dev h3 {
@@ -52,7 +52,7 @@
   .dev li {
     margin-bottom: 0.5rem;
   }
-  
+
 .dev p{
     margin-left: 1rem;
 }
