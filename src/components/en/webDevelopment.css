@@ -90,6 +90,7 @@
     display: flex;
     align-items: flex-start;
     padding: 1rem 0;
+    
   }
   
   .dev ul {
@@ -124,3 +125,14 @@
     margin-bottom: 1rem;
   }
   
+
+  @media screen and (max-width:768px) {
+    .dev{
+      flex-wrap: wrap;
+
+    }
+    .img-webDev{
+      width: 100%;
+    }
+    
+  }

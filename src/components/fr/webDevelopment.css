@@ -24,3 +24,15 @@
     height: auto;
     margin-right: 10px;
 }
+
+
+@media screen and (max-width:768px) {
+    .dev{
+      flex-wrap: wrap;
+
+    }
+    .img-webDev{
+      width: 100%;
+    }
+    
+  }
