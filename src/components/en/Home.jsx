@@ -1,13 +1,15 @@
 import React from "react";
 import logoWeb from "../../components/assets/world-wide-web.png";
 import logoFinance from "../../components/assets/bars.png";
-import webDev1 from "../../components/assets/web-dev1.jpg";
+import image5 from "../../components/assets/image5.png";
 import "../../components/en/home.css";
 
-function Home() {
+const Home = () => {
   return (
     <div className="container">
       <h1 className="title">Welcome to DevAccount Tech Solutions</h1>
+      <img src={image5} alt="" className="image5" />
+
       <p>
         We are your trusted partner for web development and accounting needs.
         Our company is committed to providing innovative and reliable solutions
@@ -17,7 +19,6 @@ function Home() {
       <section>
         <div className="service">
           <img src={logoWeb} alt="" className="logo-web" />
-
           <h2>Web Development</h2>
         </div>
         <p>
@@ -71,6 +72,6 @@ function Home() {
       </section>
     </div>
   );
-}
+};
 
 export default Home;
