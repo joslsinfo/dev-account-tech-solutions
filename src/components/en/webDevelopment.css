@@ -112,6 +112,7 @@
     width: 50%;
     margin-left: 2rem;
     object-fit: cover;
+    max-width: 1200px;
   }
   
   .service {
@@ -133,9 +134,8 @@
     }
     .img-webDev{
       width: 100%;
-      max-width:1200px;
       object-fit: cover;
-      margin:0;
+      
     }
     
   }
