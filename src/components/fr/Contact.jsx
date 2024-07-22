@@ -73,6 +73,8 @@
 // export default Contact;
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
   const form = useRef();
@@ -89,6 +91,7 @@ export const Contact = () => {
       )
       .then(
         (result) => {
+          toast.success("Votre message a été envoyé avec succès ! ");
           // Code pour gérer la soumission réussie du formulaire
           console.log("SUCCESS!", result.text);
           // Réinitialiser le formulaire après l'envoi réussi
@@ -97,6 +100,7 @@ export const Contact = () => {
           }
         },
         (error) => {
+          toast.error("Une erreur est survenue. veuillez réeesayer plus tard.");
           // Code pour gérer l'échec de la soumission du formulaire
           console.log("FAILED...", error.text);
         }
@@ -104,47 +108,50 @@ export const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="container mt-5">
-      <h1>Contact</h1>
-      <div className="mb-3">
-        <label htmlFor="name" className="form-label">
-          Nom
-        </label>
-        <input
-          type="text"
-          id="name"
-          name="your_name"
-          className="form-control"
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="email" className="form-label">
-          Courriel
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="your_email"
-          className="form-control"
-          required
-        />
-      </div>
-      <div className="mb-3">
-        <label htmlFor="message" className="form-label">
-          Message
-        </label>
-        <textarea
-          id="message"
-          name="message"
-          className="form-control"
-          required
-        ></textarea>
-      </div>
-      <button type="submit" className="btn btn-success">
-        Send
-      </button>
-    </form>
+    <>
+      <ToastContainer />
+      <form ref={form} onSubmit={sendEmail} className="container mt-5">
+        <h1>Contact</h1>
+        <div className="mb-3">
+          <label htmlFor="name" className="form-label">
+            Nom
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="your_name"
+            className="form-control"
+            required
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="email" className="form-label">
+            Courriel
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="your_email"
+            className="form-control"
+            required
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">
+            Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            className="form-control"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" className="btn btn-success">
+          Send
+        </button>
+      </form>
+    </>
   );
 };
 export default Contact;
