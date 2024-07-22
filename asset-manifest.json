@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev-account-tech-solutions/static/css/main.5bafefdb.css",
-    "main.js": "/dev-account-tech-solutions/static/js/main.4b6ec61f.js",
+    "main.css": "/dev-account-tech-solutions/static/css/main.fc300773.css",
+    "main.js": "/dev-account-tech-solutions/static/js/main.649f44fe.js",
     "static/js/453.fb5044bb.chunk.js": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js",
     "static/media/programming.jpg": "/dev-account-tech-solutions/static/media/programming.1586ea279939b52cbd8e.jpg",
     "static/media/development.jpg": "/dev-account-tech-solutions/static/media/development.26b193907cb28777825b.jpg",
@@ -20,12 +20,12 @@
     "static/media/analysing.png": "/dev-account-tech-solutions/static/media/analysing.55c7fd7552ef677b443b.png",
     "static/media/bars.png": "/dev-account-tech-solutions/static/media/bars.c19d00956fe82a989afd.png",
     "index.html": "/dev-account-tech-solutions/index.html",
-    "main.5bafefdb.css.map": "/dev-account-tech-solutions/static/css/main.5bafefdb.css.map",
-    "main.4b6ec61f.js.map": "/dev-account-tech-solutions/static/js/main.4b6ec61f.js.map",
+    "main.fc300773.css.map": "/dev-account-tech-solutions/static/css/main.fc300773.css.map",
+    "main.649f44fe.js.map": "/dev-account-tech-solutions/static/js/main.649f44fe.js.map",
     "453.fb5044bb.chunk.js.map": "/dev-account-tech-solutions/static/js/453.fb5044bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bafefdb.css",
-    "static/js/main.4b6ec61f.js"
+    "static/css/main.fc300773.css",
+    "static/js/main.649f44fe.js"
   ]
 }
