@@ -2,7 +2,6 @@ import React from "react";
 import "../../components/fr/webDevelopment.css";
 // import programming from "../assets/programming.jpg";
 // import development from "../assets/development.jpg";
-
 import programming from "../assets/programmingpng.png";
 import development from "../assets/developmentpng.png";
 import developperatwork from "../assets/developperatwork.jpg";
