@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../components/assets/logo-dev-account-tech-solutions-logo.jpg";
 
-function Navigation() {
+const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -66,6 +66,6 @@ function Navigation() {
       </h2>
     </>
   );
-}
+};
 
 export default Navigation;

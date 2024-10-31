@@ -1,7 +1,14 @@
 import React from "react";
 import "../../components/fr/webDevelopment.css";
-import programming from "../assets/programming.jpg";
-import development from "../assets/development.jpg";
+// import programming from "../assets/programming.jpg";
+// import development from "../assets/development.jpg";
+
+import programming from "../assets/programmingpng.png";
+import development from "../assets/developmentpng.png";
+import developperatwork from "../assets/developperatwork.jpg";
+import webDev3 from "../assets/web-dev3.jpg";
+import webDev4 from "../assets/web-dev4.jpg";
+import imgCoworkersWithCustomer from "../assets/img-coworkerswithcustomer.jpg";
 
 function WebDevelopment() {
   return (
@@ -11,49 +18,65 @@ function WebDevelopment() {
         <h1>Développement web</h1>
       </div>
       <h2>Bienvenue chez DevAccount Tech Solutions !</h2>
-      <p>
-        Nous sommes une équipe passionnée de professionnels du développement
-        web, dédiée à fournir des solutions technologiques innovantes pour
-        répondre aux besoins de votre entreprise. Avec une expertise approfondie
-        dans le domaine du développement web et une approche axée sur la
-        satisfaction client, nous sommes là pour vous aider à réaliser vos
-        projets numériques avec succès.
-      </p>
+      <div className="dev">
+        <p>
+          Nous sommes une équipe passionnée de professionnels du développement
+          web, dédiée à fournir des solutions technologiques innovantes pour
+          répondre aux besoins de votre entreprise. Avec une expertise
+          approfondie dans le domaine du développement web et une approche axée
+          sur la satisfaction client, nous sommes là pour vous aider à réaliser
+          vos projets numériques avec succès.
+        </p>
+        <img src={developperatwork} alt="" className="img-webDev" />
+      </div>
       <hr />
       <div className="service">
         <img src={development} alt="" className="img-development" />
         <h2>Nos Services </h2>
       </div>
-      <p>
-        Chez DevAccount Tech Solutions, nous offrons une gamme complète de
-        services de développement web, adaptés à vos besoins spécifiques. Que
-        vous soyez une start-up à la recherche d'une présence en ligne, une PME
-        désireuse de moderniser son site web existant, ou une grande entreprise
-        cherchant à développer une application web complexe, nous avons les
-        compétences et l'expérience nécessaires pour vous accompagner à chaque
-        étape de votre projet.
-      </p>
-      <ul>
-        Nos services comprennent :
-        <li>Conception et développement de sites web sur mesure.</li>
-        <li>Développement d'applications web personnalisées.</li>
-        <li>Intégration de systèmes et de bases de données.</li>
-        <li>Optimisation de la performance et de la sécurité des sites web.</li>
-        <li>Migration et mise à niveau de plateformes existantes.</li>
-        <li>
-          Développement de sites web adaptatifs et compatibles avec les mobiles.
-        </li>
-      </ul>
+      <div className="dev">
+        <p>
+          Chez DevAccount Tech Solutions, nous offrons une gamme complète de
+          services de développement web, adaptés à vos besoins spécifiques. Que
+          vous soyez une start-up à la recherche d'une présence en ligne, une
+          PME désireuse de moderniser son site web existant, ou une grande
+          entreprise cherchant à développer une application web complexe, nous
+          avons les compétences et l'expérience nécessaires pour vous
+          accompagner à chaque étape de votre projet.
+        </p>
+        <img src={webDev3} alt="" className="img-webDev" />
+      </div>
+      <div className="dev">
+        <ul>
+          <h3>Nos services comprennent :</h3>
+          <li>Conception et développement de sites web sur mesure.</li>
+          <li>Développement d'applications web personnalisées.</li>
+          <li>Intégration de systèmes et de bases de données.</li>
+          <li>
+            Optimisation de la performance et de la sécurité des sites web.
+          </li>
+          <li>Migration et mise à niveau de plateformes existantes.</li>
+          <li>
+            Développement de sites web adaptatifs et compatibles avec les
+            mobiles.
+          </li>
+        </ul>
+        <img src={webDev4} alt="" className="img-webDev" />
+      </div>
       <hr />
       <h2>Notre Approche</h2>
-      <p>
-        Chez DevAccount Tech Solutions, nous croyons en une approche
-        collaborative et transparente pour chaque projet que nous entreprenons.
-        Nous commençons par écouter attentivement vos besoins et vos objectifs,
-        puis nous travaillons en étroite collaboration avec vous à chaque étape
-        du processus de développement pour nous assurer que nous répondons à vos
-        attentes et que nous livrons des résultats exceptionnels.
-      </p>
+      <div className="dev">
+        <p>
+          Chez DevAccount Tech Solutions, nous croyons en une approche
+          collaborative et transparente pour chaque projet que nous
+          entreprenons. Nous commençons par écouter attentivement vos besoins et
+          vos objectifs, puis nous travaillons en étroite collaboration avec
+          vous à chaque étape du processus de développement pour nous assurer
+          que nous répondons à vos attentes et que nous livrons des résultats
+          exceptionnels.
+        </p>
+        <img src={imgCoworkersWithCustomer} alt="" className="img-webDev" />
+      </div>
       <hr />
       <ul>
         <h3>Pourquoi Nous Choisir</h3>
